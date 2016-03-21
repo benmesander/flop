@@ -9,6 +9,8 @@ flip backs photos up from ipernity to local disk; flop then uploads them to flic
 
 Also note that while ipernity allows you to upload arbitrary document types, flickr only allows photos and videos. Any ipernity content which is not a photo or video is not uploaded by flop to flickr (because it can't).
 
+flop uses the [masci flickr API for go](https://github.com/masci/flickr) - this package should be cloned into a 'src' subdirectory under flop.
+
 API Key
 =======
 flop requires a flickr API key. These can be obtained from [flick's create an API key page](https://www.flickr.com/services/apps/create/). The API key and secret obtained from this page should be placed in environment variables, `FLICKR_API_KEY` and `FLICKR_API_SECRET`. 
